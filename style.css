@@ -420,6 +420,18 @@ nav{
 .work-body .p-tags span{
   color: var(--blue-mid); border-color: rgba(30,58,138,0.25);
 }
+.testing-note{
+  display:inline-flex; align-items:center; gap:8px;
+  font-family: var(--mono); font-size:.75rem; letter-spacing:.3px;
+  color: var(--blue-mid); font-weight:500;
+  margin-bottom: 4px; margin-top: -6px;
+}
+.pulse-dot{
+  width:6px; height:6px; border-radius:50%; background: var(--blue-bright);
+  box-shadow: 0 0 6px var(--blue-bright);
+  animation: pulse 2s infinite;
+  flex-shrink:0;
+}
 .work-link{
   font-size:.82rem; font-weight:600; letter-spacing:.5px; text-transform:uppercase;
   color: var(--ink); display:inline-flex; align-items:center; gap:8px; margin-top:18px;
